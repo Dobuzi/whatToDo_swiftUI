@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2616F61B28BD6C9B7F6FB580 /* Pods_whatToDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F0DDA64643DF17C9F36FA /* Pods_whatToDo.framework */; };
 		4D971CF82524736900B1F4A5 /* whatToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971CF72524736900B1F4A5 /* whatToDoApp.swift */; };
-		4D971CFA2524736900B1F4A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971CF92524736900B1F4A5 /* ContentView.swift */; };
 		4D971CFC2524736A00B1F4A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D971CFB2524736A00B1F4A5 /* Assets.xcassets */; };
 		4D971CFF2524736A00B1F4A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D971CFE2524736A00B1F4A5 /* Preview Assets.xcassets */; };
 		4D971D0A2524736A00B1F4A5 /* whatToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D092524736A00B1F4A5 /* whatToDoTests.swift */; };
 		4D971D152524736A00B1F4A5 /* whatToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D142524736A00B1F4A5 /* whatToDoUITests.swift */; };
+		4D971D34252473C100B1F4A5 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D26252473C100B1F4A5 /* Task.swift */; };
+		4D971D35252473C100B1F4A5 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D28252473C100B1F4A5 /* TaskListViewModel.swift */; };
+		4D971D36252473C100B1F4A5 /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D29252473C100B1F4A5 /* TaskCellViewModel.swift */; };
+		4D971D37252473C100B1F4A5 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D2B252473C100B1F4A5 /* TaskListView.swift */; };
+		4D971D38252473C100B1F4A5 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D2C252473C100B1F4A5 /* SignInWithAppleButton.swift */; };
+		4D971D39252473C100B1F4A5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D2D252473C100B1F4A5 /* SignInView.swift */; };
+		4D971D3A252473C100B1F4A5 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D2F252473C100B1F4A5 /* TaskRepository.swift */; };
+		4D971D3C252473C100B1F4A5 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D971D33252473C100B1F4A5 /* SignInWithAppleCoordinator.swift */; };
+		4D971D4E252539AC00B1F4A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D971D4D252539AC00B1F4A5 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		177FB08198562A079695D263 /* Pods-whatToDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatToDo.debug.xcconfig"; path = "Target Support Files/Pods-whatToDo/Pods-whatToDo.debug.xcconfig"; sourceTree = "<group>"; };
 		4D971CF42524736900B1F4A5 /* whatToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whatToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D971CF72524736900B1F4A5 /* whatToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatToDoApp.swift; sourceTree = "<group>"; };
-		4D971CF92524736900B1F4A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D971CFB2524736A00B1F4A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D971CFE2524736A00B1F4A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D971D002524736A00B1F4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +54,18 @@
 		4D971D102524736A00B1F4A5 /* whatToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whatToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D971D142524736A00B1F4A5 /* whatToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatToDoUITests.swift; sourceTree = "<group>"; };
 		4D971D162524736A00B1F4A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D971D26252473C100B1F4A5 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		4D971D28252473C100B1F4A5 /* TaskListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		4D971D29252473C100B1F4A5 /* TaskCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
+		4D971D2B252473C100B1F4A5 /* TaskListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		4D971D2C252473C100B1F4A5 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		4D971D2D252473C100B1F4A5 /* SignInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4D971D2F252473C100B1F4A5 /* TaskRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		4D971D33252473C100B1F4A5 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		4D971D432525381800B1F4A5 /* whatToDo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = whatToDo.entitlements; sourceTree = "<group>"; };
+		4D971D4D252539AC00B1F4A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D93F0DDA64643DF17C9F36FA /* Pods_whatToDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whatToDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5F38EE1950EC8B1F92909 /* Pods-whatToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whatToDo.release.xcconfig"; path = "Target Support Files/Pods-whatToDo/Pods-whatToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2616F61B28BD6C9B7F6FB580 /* Pods_whatToDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +101,8 @@
 				4D971D082524736A00B1F4A5 /* whatToDoTests */,
 				4D971D132524736A00B1F4A5 /* whatToDoUITests */,
 				4D971CF52524736900B1F4A5 /* Products */,
+				919823A7299785ADCE9D43E0 /* Pods */,
+				82F6099A5CB0F589BB82C6B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,10 +119,16 @@
 		4D971CF62524736900B1F4A5 /* whatToDo */ = {
 			isa = PBXGroup;
 			children = (
-				4D971CF72524736900B1F4A5 /* whatToDoApp.swift */,
-				4D971CF92524736900B1F4A5 /* ContentView.swift */,
+				4D971D432525381800B1F4A5 /* whatToDo.entitlements */,
+				4D971D30252473C100B1F4A5 /* App */,
+				4D971D25252473C100B1F4A5 /* Model */,
+				4D971D2E252473C100B1F4A5 /* Repositories */,
+				4D971D32252473C100B1F4A5 /* Services */,
+				4D971D2A252473C100B1F4A5 /* View */,
+				4D971D27252473C100B1F4A5 /* ViewModels */,
 				4D971CFB2524736A00B1F4A5 /* Assets.xcassets */,
 				4D971D002524736A00B1F4A5 /* Info.plist */,
+				4D971D4D252539AC00B1F4A5 /* GoogleService-Info.plist */,
 				4D971CFD2524736A00B1F4A5 /* Preview Content */,
 			);
 			path = whatToDo;
@@ -130,6 +160,75 @@
 			path = whatToDoUITests;
 			sourceTree = "<group>";
 		};
+		4D971D25252473C100B1F4A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D971D26252473C100B1F4A5 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D971D27252473C100B1F4A5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4D971D28252473C100B1F4A5 /* TaskListViewModel.swift */,
+				4D971D29252473C100B1F4A5 /* TaskCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D971D2A252473C100B1F4A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D971D2B252473C100B1F4A5 /* TaskListView.swift */,
+				4D971D2C252473C100B1F4A5 /* SignInWithAppleButton.swift */,
+				4D971D2D252473C100B1F4A5 /* SignInView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D971D2E252473C100B1F4A5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				4D971D2F252473C100B1F4A5 /* TaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		4D971D30252473C100B1F4A5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4D971CF72524736900B1F4A5 /* whatToDoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4D971D32252473C100B1F4A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D971D33252473C100B1F4A5 /* SignInWithAppleCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82F6099A5CB0F589BB82C6B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D93F0DDA64643DF17C9F36FA /* Pods_whatToDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		919823A7299785ADCE9D43E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				177FB08198562A079695D263 /* Pods-whatToDo.debug.xcconfig */,
+				DBC5F38EE1950EC8B1F92909 /* Pods-whatToDo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D971D192524736A00B1F4A5 /* Build configuration list for PBXNativeTarget "whatToDo" */;
 			buildPhases = (
+				0B2690F267E116DD6E87BA1D /* [CP] Check Pods Manifest.lock */,
 				4D971CF02524736900B1F4A5 /* Sources */,
 				4D971CF12524736900B1F4A5 /* Frameworks */,
 				4D971CF22524736900B1F4A5 /* Resources */,
+				532AFBCD032C9A23B4155AD4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +336,7 @@
 			files = (
 				4D971CFF2524736A00B1F4A5 /* Preview Assets.xcassets in Resources */,
 				4D971CFC2524736A00B1F4A5 /* Assets.xcassets in Resources */,
+				4D971D4E252539AC00B1F4A5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +356,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B2690F267E116DD6E87BA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whatToDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		532AFBCD032C9A23B4155AD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatToDo/Pods-whatToDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-whatToDo/Pods-whatToDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-whatToDo/Pods-whatToDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D971CF02524736900B1F4A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D971CFA2524736900B1F4A5 /* ContentView.swift in Sources */,
+				4D971D35252473C100B1F4A5 /* TaskListViewModel.swift in Sources */,
+				4D971D34252473C100B1F4A5 /* Task.swift in Sources */,
 				4D971CF82524736900B1F4A5 /* whatToDoApp.swift in Sources */,
+				4D971D36252473C100B1F4A5 /* TaskCellViewModel.swift in Sources */,
+				4D971D37252473C100B1F4A5 /* TaskListView.swift in Sources */,
+				4D971D3C252473C100B1F4A5 /* SignInWithAppleCoordinator.swift in Sources */,
+				4D971D3A252473C100B1F4A5 /* TaskRepository.swift in Sources */,
+				4D971D39252473C100B1F4A5 /* SignInView.swift in Sources */,
+				4D971D38252473C100B1F4A5 /* SignInWithAppleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +565,11 @@
 		};
 		4D971D1A2524736A00B1F4A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177FB08198562A079695D263 /* Pods-whatToDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = whatToDo/whatToDo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"whatToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7J7R843574;
@@ -436,9 +589,11 @@
 		};
 		4D971D1B2524736A00B1F4A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC5F38EE1950EC8B1F92909 /* Pods-whatToDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = whatToDo/whatToDo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"whatToDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7J7R843574;
